@@ -1,0 +1,18 @@
+#table-container table {
+    border: 1px solid grey;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0px;
+}
+
+
+#table-container td, th {
+    border: 1px solid grey;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.cursor {
+    background-color: lightblue;
+}
