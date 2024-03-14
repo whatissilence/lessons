@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 24</title>
+</head>
+<body style="">
+
+<h2>Forms</h2>
+
+<form action="https://google.com" method="post">
+    <input id="first" class="bzzz" type="text" name="first" value="Try to change me )))" readonly="readonly"/><br />
+    <button id="second" name="second" value="33">Click me!</button><br />
+    <textarea rows="5" cols="20" name="third">Text</textarea><br />
+
+    <select id="mySelect" name="four" multiple="multiple" >
+        <option value="11111">One</option>
+        <option value="22222">Two</option>
+        <option value="33333">Three</option>
+    </select><br /><br /><br />
+
+    <label for="ch1"><input id="ch1" type="checkbox" name="me" value="sell1"> Select me!</label><br />
+    <label for="ch2"><input id="ch2" type="checkbox" name="me" value="sell2"> Not me!</label><br />
+    <label for="ch3"><input id="ch3" type="checkbox" name="me" value="sell3"> No! Only me!</label><br /><br /><br />
+
+    Required: <input type="text" required><br /><br />
+    Min5, max10: <input type="text" required minlength="5" maxlength="10" ><br /><br />
+    Number: <input type="number"  ><br /><br />
+
+    <label for="r1"><input id="r1" type="radio" name="rad" value="rad1" />r1</label>
+    <label for="r2"><input id="r2" type="radio" name="rad" value="rad2" />r2</label>
+    <label for="r3"><input id="r3" type="radio" name="rad" value="rad3" />r3</label>
+    <label for="r4"><input id="r4" type="radio" name="rad" value="rad4" />r4</label>
+    <label for="r5"><input id="r5" type="radio" name="rad" value="rad5" />r5</label><br /><br />
+
+
+    Password: <input type="password" id="pass" > <span onclick="togglePass()">Show/Hide</span><br /><br />
+
+
+
+    <textarea rows="20" cols="20" name="qqqq" id="message">Enter your message</textarea><span onclick="post()">Post!</span><br />
+    Posts:<br />
+    <div id="postContainer"></div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
