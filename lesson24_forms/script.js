@@ -11,7 +11,7 @@ first.addEventListener('keydown', (event) => {
 const mySelect = document.getElementById('mySelect');
 Array.from(mySelect.children).forEach(opt => {
     if (opt.selected) {
-      console.log(opt)
+      console.log(opt);
     }
   }
 )

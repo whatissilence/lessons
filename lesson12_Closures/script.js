@@ -152,7 +152,7 @@ function creatorProtected(initNum) {
   }
 }
 
-const obj = creatorProtected(5);
+let obj = creatorProtected(5);
 console.log(    obj.getCount()    );
 obj.plus(50);
 obj.plus(2);
