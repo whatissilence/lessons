@@ -1,0 +1,21 @@
+{
+  "name": "lesson32_gulp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-version-number": "^0.2.4",
+    "webpack": "^5.91.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
