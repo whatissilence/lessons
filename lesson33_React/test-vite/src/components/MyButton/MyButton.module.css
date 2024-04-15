@@ -1,0 +1,7 @@
+.my-button {
+    border: 2px solid green;
+}
+
+.my-button-special {
+    border: 3px solid red !important;
+}
